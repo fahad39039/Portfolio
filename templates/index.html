@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <title>Portfolio</title>
+  </head>
+  <body class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <a class="navbar-brand test" href="#">Shah Fahad Multani</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="modal" data-target="#exampleModalLong" style="cursor: pointer;">Resume</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="row d-flex" style="margin-top:80px" id="about">
+    	<div class="col-lg-6 col-sm-12 order-lg-0 order-sm-1 order-1 d-flex align-items-center justify-content-center">
+        <div>
+          <h1 class="intro__title">Hi there! I’m Shah Fahad Multani.</h1>
+          <p class="intro__subtitle">I enjoy coding and learning new things.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-sm-12 order-0 order-sm-0 order-lg-1">
+        <div class="avatar">
+        <a href="https://codepen.io/MarioDesigns/">
+          <img class="img-fluid" src="static/images/user_profile.png" alt="Skytsunami" />
+        </a>
+      </div>
+      </div>
+    </div>
+    <div>
+      <div class="d-flex justify-content-center" style="margin-top:80px">
+        <h2>Look what can I do</h2>
+      </div>
+      <div class="row offset-lg-4">
+        <div class="col-6">
+          <ul class="outline-round align-items-center justify-content-center">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Knoskout JS</li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul class="outline-round align-items-center justify-content-center">
+            <li>Python</li>
+            <li>Django</li>
+            <li>Jinja2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="projects">
+      <div class="d-flex justify-content-center" style="margin-top:80px">
+        <h2>Projects that I built so far</h2>
+      </div>
+      <div class="row p-5">
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="static/images/feature-request-app.png  " alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="static/images/quiz-app.png  " alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <div class="card">
+            <img class="card-img-top" src="static/images/mechat-portal.png  " alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="d-flex justify-content-center" style="margin-top:80px">
+        <h2>You can find me</h2>
+      </div>
+      <ul class="contact__links">
+        <li>
+          <a class="contact__link" href="https://www.linkedin.com/in/shah-fahad-multani">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a class="contact__link" href="https://www.instagram.com/fahad.multani/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a class="contact__link" href="mailto:shahfahad39039@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a class="contact__link" href="mailto:shahfahad39039@gmail.com">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="iframe-container">
+              <iframe src="static/pdf/resume.pdf"></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <h5>Designed and coded by Shah Fahad Multani</h5>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
